@@ -106,7 +106,7 @@ var s = "JavaScript syntax highlighting";
 
 // 
 
-client.on('ready', () => { client.user.setGame('Little Nightmares') })
+client.on('ready', () => { client.user.setActivity('Little Nightmares') })
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
